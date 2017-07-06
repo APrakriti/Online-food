@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    tools:context="com.prakriti.onlinefood.AboutUs">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:text="Location"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/btnlocation"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_rectangle"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:layout_gravity="center"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:id="@+id/btncall"
+        android:background="@drawable/shape_rectangle"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textaboutus"
+        android:text="We are always ready to serve our customers. Thanks for Logging In.
+I don’t know what enchantment your gaze wrought
+My heart became drawn to you irresistibly
+The bright dawn of my face, the dusky twilight of my tresses
+All that was mine is now devoted to you
+Your eyes met mine
+And ever since then a spell has been woven
+I feel that I have become beautiful
+
+Read more: http://www.lyricsmint.com/2016/08/afreen-afreen-coke-studio-9.html"/>
+
+</LinearLayout>
